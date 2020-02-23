@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
+/**
+ * decode404 = true
+ * permet de passer l'erreur 404 et ainsi
+ * d'eviter de declancher l erreur 404
+ */
 @FeignClient(name = "microservice-produits", url = "localhost:9001")
 public interface MicroserviceProduitsProxy {
 
