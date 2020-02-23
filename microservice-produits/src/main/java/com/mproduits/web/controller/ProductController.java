@@ -29,7 +29,6 @@ public class ProductController {
 
     }
 
-    //Récuperer un produit par son id
     @GetMapping(value = "/Produits/{id}")
     public Optional<Product> recupererUnProduit(@PathVariable int id) {
 
