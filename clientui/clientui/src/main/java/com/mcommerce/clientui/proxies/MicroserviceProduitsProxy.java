@@ -13,7 +13,7 @@ import java.util.List;
  * permet de passer l'erreur 404 et ainsi
  * d'eviter de declancher l erreur 404
  */
-@FeignClient(name = "microservice-produits", url = "localhost:9001")
+@FeignClient(name = "microservice-produit", url = "localhost:9001")
 public interface MicroserviceProduitsProxy {
 
     @GetMapping(value = "/Produits")
