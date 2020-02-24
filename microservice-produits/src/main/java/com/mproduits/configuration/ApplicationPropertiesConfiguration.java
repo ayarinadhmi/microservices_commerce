@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @ConfigurationProperties("mes-configs")
+@RefreshScope
 public class ApplicationPropertiesConfiguration {
 
     private int limitDeProduits;
