@@ -1,9 +1,3 @@
-.idea/
-*.class
-*.iml
-target/
-.idea/
-
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -37,5 +31,3 @@ build/
 .vscode/
 
 .mvn
-
-eureka/.mvn/
