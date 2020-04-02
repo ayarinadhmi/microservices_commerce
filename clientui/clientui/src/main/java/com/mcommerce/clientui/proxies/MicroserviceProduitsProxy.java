@@ -14,7 +14,8 @@ import java.util.List;
  * permet de passer l'erreur 404 et ainsi
  * d'eviter de declancher l erreur 404
  */
-@FeignClient(name = "microservice-produit")
+@FeignClient(name = "zuul-server")
+@RibbonClient(name = "microservice-produit")
 public interface MicroserviceProduitsProxy {
 
     @GetMapping(value = "/Produits")
